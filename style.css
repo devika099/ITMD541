@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    padding: 2vh;
+    margin: 0;
+    background: rgb(211, 129, 236);
+    background: linear-gradient(90deg, rgb(210, 130, 192) 0%, rgb(191, 67, 210) 45%, rgb(111, 8, 155) 100%); 
+    color: rgba(255, 255, 255, 0.8);
+}
+#title-id{
+    font-size: 6vh;
+    font-weight: bold;    
+    text-align: center;        
+}
+a{
+    color: white;
+    text-align: center;
+}
+#designation-id{
+    font-style: italic; font-size: 2.5vh;
+}
+#bio-id{
+    font-size: 2vh;
+}
+p{
+    text-align: center;
+    font-size: 1.5rem;
+}   
+
+#bio-id {
+    text-align: center;
+    font-size: 1.3rem;
+}
+#reference-container{
+    display: flex; justify-content: center; gap: 3vw;
+}   
+#main-container{
+    display: flex; 
+    justify-content: center;
+}  
+#image-id{
+    height: 50vh; 
+    width: 40vh;  
+    border-radius: 10vh;
+}
